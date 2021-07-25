@@ -22,11 +22,13 @@
             <div class="produtos">
                 <div>
                  <img src="assets/produtos1.jpg" alt="Tricô para bebês">
-                 <h3>Bebês e Crianças</h3>
+                 <h4>Bebês e Crianças</h4>
+                 <h3>R$ 40,00</h3>
                 </div>
                 <div>
                  <img src="assets/produtos2.jpg" alt="Mulher vestindo tricô branco">
-                 <h3>Adolescentes e Adultos</h3>
+                 <h4>Adolescentes e Adultos</h4>
+                 <h3>R$ 60,00</h3>
                 </div>
             </div>
         </div>
@@ -39,6 +41,12 @@
                     <input type="tel"
                     placeholder="telefone" id= "telefone" required>
                     <input type="text" placeholder="endereço" id="endereço" required>
+                    <input list="produtos" placeholder="produtos">
+                    <datalist id="produtos">
+                        <option value="Bebês e crianças">
+                        <option value="Adolescente e Adultos">
+                    </datalist>
+                    <input type="number" placeholder="quantidade" id="quantidade">
                     <input type="submit" value="Cadastrar">
                 </form>
             </div>
